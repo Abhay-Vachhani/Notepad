@@ -121,3 +121,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# My Changes
+INSTALLED_APPS+=['notepad_app']
+TEMPLATES[0]['DIRS'] = ['templates']
+URL_LENGTH = 5
